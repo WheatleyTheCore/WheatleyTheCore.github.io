@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -7,11 +11,12 @@ module.exports = {
     {
       resolve: "gatsby-source-datocms",
       options: {
-        apiToken: "ab4970e0da759e07e0bee099bf3d16",
+        apiToken: process.env.DATOCMS_API_TOKEN,
       },
     },
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-anchor-links",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -28,5 +33,10 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-material-ui"
   ],
 };
+
+exports.onCreateNode = ({node}) => {
+  console.log(`Node created of type "${node.internal.type}"`)
+}

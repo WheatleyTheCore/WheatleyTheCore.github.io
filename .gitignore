@@ -1,3 +1,8 @@
 node_modules/
 .cache/
-public
+public/
+
+package-lock.json
+
+.env.development
+.env.production 
