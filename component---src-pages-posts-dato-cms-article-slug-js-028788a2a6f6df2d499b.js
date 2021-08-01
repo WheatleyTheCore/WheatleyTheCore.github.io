@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[600],{3828:function(e,t,l){l.r(t);var a=l(7294),o=l(9753),r=l(1039),n=l(4516),u=l(645);t.default=function(e){var t=e.data.datoCmsArticle;return a.createElement(r.Z,null,a.createElement(o.Z,{to:"blog",text:"Blog"}),a.createElement(n.Z,{text:t.title,datePublished:t.datePublished}),a.createElement(u.Z,{body:t.text}))}}}]);
+//# sourceMappingURL=component---src-pages-posts-dato-cms-article-slug-js-028788a2a6f6df2d499b.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[479],{2124:function(t,e,o){o.r(e);var r=o(7294);e.default=function(t){var e=t.data;return r.createElement("div",null,e.datoCmsProject.title)}}}]);
+//# sourceMappingURL=component---src-pages-posts-dato-cms-project-slug-js-b5ea324ad1051cdf249e.js.map

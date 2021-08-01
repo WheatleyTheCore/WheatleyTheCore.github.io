@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[600],{3828:function(t,e,l){l.r(e);var r=l(7294);e.default=function(t){var e=t.data;return r.createElement("div",null,e.datoCmsArticle.title)}}}]);
+//# sourceMappingURL=component---src-pages-posts-dato-cms-article-slug-js-4a44609e178c6b5a4027.js.map
