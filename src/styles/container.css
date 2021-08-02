@@ -231,6 +231,14 @@ a:active {
   flex-direction: column;
   align-items: center;
 }
+.header {
+  width: 100%;
+}
+
+.postButton {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #999;
+}
 
 
 

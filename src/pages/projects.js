@@ -20,6 +20,7 @@ const ProjectSearch = ({ data }) => {
 
   return (
     <Container>
+      <div>Projects</div>
       <SearchNav
         path="projects"
         searchQuery={searchQuery}

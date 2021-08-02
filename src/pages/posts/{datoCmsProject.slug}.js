@@ -10,7 +10,7 @@ const Project = ({ data }) => {
   console.log(project)
   return (
     <Container>
-      <PageHeader to="blog" text="Blog" />
+      <PageHeader to="projects" text="Projects" />
       <PostHeader text={project.title} datePublished={project.datePublished} />
     <PostBody body={project.text} />
     </Container>
