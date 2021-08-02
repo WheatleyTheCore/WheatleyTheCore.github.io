@@ -10,7 +10,7 @@ import Navbar from "../components/navbar";
 // markup
 const IndexPage = ({ data }) => {
   const isBrowser = typeof window !== "undefined"
-  const previewNum = isBrowser ? Math.floor(2 *(window.innerWidth / (285))) : 6;
+  const previewNum = isBrowser ? (window.innerWidth > 768 ? Math.floor(2 *(window.innerWidth / (285))) : 6) : 6;
   //const previewNum = 8
   console.log(previewNum)
   return (

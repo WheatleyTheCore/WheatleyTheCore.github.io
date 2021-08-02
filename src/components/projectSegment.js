@@ -19,7 +19,11 @@ const ProjectSegment = (props) => {
         )
         })}
     </div>
-      <Link to="/projects">More projects</Link>
+        <Link to="/projects" className="previewButtonContainer">
+          <div className="previewButton">
+            More Projects
+          </div>
+        </Link>
     </div>
   )
 }

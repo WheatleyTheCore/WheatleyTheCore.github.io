@@ -4,7 +4,7 @@ import SearchBar from './searchBar'
 
 const SearchNav = props => {
   return (
-    <div className="SearchNav">
+    <div className="searchNav">
       <div className="searchNavLinks">
         <Link to="/">Home</Link>
         <Link to={`/${props.linkTo}`}>{props.linkToText}</Link>

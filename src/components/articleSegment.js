@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import LinkCard from './linkCard'
 import SectionHeader from './sectionHeader'
 
-//TODO MAYBE EXTRACT THE SLICE BIT SO THAT THIS CAN BE REUSED IN THE SEARCH THING
 
 const ArticleSegment = (props) => {
   let previewArticles = props.edges;
@@ -20,7 +19,11 @@ const ArticleSegment = (props) => {
         )
         })}
       </div>
-      <Link to="/blog">More blog posts</Link>
+        <Link to="/blog" className="previewButtonContainer">
+          <div className="previewButton">
+            More Posts
+          </div>
+        </Link>
     </div>
   )
 }
