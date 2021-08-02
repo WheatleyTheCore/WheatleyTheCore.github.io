@@ -47,7 +47,7 @@ a:active {
   margin: 15px;
 }
 
-.previewButton {
+.fauxButton {
   padding: 15px;
   border: 1px solid #999;
   align-content: center;
@@ -229,4 +229,37 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+
+/*
+ *-----------------------------------------------------------------------
+ *                    SEARCH BAR SETTINGS
+ *----------------------------------------------------------------------
+ */
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-around;
+}
+
+.searchForm {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.searchField{
+  height: 40px;
+  width: 50%;
+  margin-right: 15px;
+}
+
+.submitButton {
+  height: 45px;
 }

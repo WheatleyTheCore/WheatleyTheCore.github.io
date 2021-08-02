@@ -5,7 +5,7 @@ const About = () => {
     <div className="segment" id="about">
       Welcome to the about segment
 
-      <div className="previewButton">
+      <div className="fauxButton">
       <a href={`resume.pdf`} download>
         You can download my resume here
       </a>

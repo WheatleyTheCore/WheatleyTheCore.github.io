@@ -24,6 +24,7 @@ const ArticlesSearch = ({ data }) => {
         linkTo="projects"
         linkToText="Projects"
       />
+      <div className="cardSection">
       {filteredArticles.map((post) => {
         return (
           <LinkCard
@@ -34,6 +35,7 @@ const ArticlesSearch = ({ data }) => {
           />
         );
       })}
+    </div>
     </Container>
   );
 };

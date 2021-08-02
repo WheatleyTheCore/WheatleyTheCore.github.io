@@ -20,7 +20,7 @@ const ProjectSegment = (props) => {
         })}
     </div>
         <Link to="/projects" className="previewButtonContainer">
-          <div className="previewButton">
+          <div className="fauxButton">
             More Projects
           </div>
         </Link>

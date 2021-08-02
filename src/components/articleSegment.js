@@ -20,7 +20,7 @@ const ArticleSegment = (props) => {
         })}
       </div>
         <Link to="/blog" className="previewButtonContainer">
-          <div className="previewButton">
+          <div className="fauxButton">
             More Posts
           </div>
         </Link>
