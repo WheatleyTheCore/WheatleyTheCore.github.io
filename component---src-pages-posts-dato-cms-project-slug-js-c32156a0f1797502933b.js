@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[479],{2124:function(e,t,a){a.r(t);var l=a(7294),r=a(9753),o=a(1039),c=a(4516),n=a(645);t.default=function(e){var t=e.data.datoCmsProject;return l.createElement(o.Z,null,l.createElement("div",{className:"post"},l.createElement(r.Z,{to:"projects",text:"Projects"}),l.createElement(c.Z,{text:t.title,datePublished:t.datePublished}),l.createElement(n.Z,{body:t.text})))}}}]);
+//# sourceMappingURL=component---src-pages-posts-dato-cms-project-slug-js-c32156a0f1797502933b.js.map
