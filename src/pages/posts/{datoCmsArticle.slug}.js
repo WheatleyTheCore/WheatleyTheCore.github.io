@@ -9,9 +9,11 @@ const Article = ({ data }) => {
   const article = data.datoCmsArticle;
   return (
     <Container>
+      <div className="post">
       <PageHeader to="blog" text="Blog" />
       <PostHeader text={article.title} datePublished={article.datePublished} />
     <PostBody body={article.text} />
+      </div>
     </Container>
   );
 };

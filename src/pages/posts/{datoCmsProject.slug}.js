@@ -7,12 +7,13 @@ import PostBody from "../../components/postBody";
 
 const Project = ({ data }) => {
   const project = data.datoCmsProject;
-  console.log(project)
   return (
     <Container>
+      <div className="post">
       <PageHeader to="projects" text="Projects" />
       <PostHeader text={project.title} datePublished={project.datePublished} />
     <PostBody body={project.text} />
+    </div>
     </Container>
   );
 };

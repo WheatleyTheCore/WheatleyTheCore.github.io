@@ -3,7 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <div className="segment" id="about">
-      Welcome to the about segment
+      I'm a software developer
+
 
       <div className="fauxButton">
       <a href={`resume.pdf`} download>

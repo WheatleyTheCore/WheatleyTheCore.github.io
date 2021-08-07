@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 //TODO change this to be tabs instead of the kinda ugly navbar thing
 
 const Navbar = () => {
+
   return (
     <div className="nav">
       <Tabs>
@@ -18,7 +19,8 @@ const Navbar = () => {
 const Tabs = (props) => {
 
   const [activeTab, changeTab] = useState(props.children[0].label)
-    let buttons = [];
+    let buttons = []
+
 
     return (
       <div className="tab-buttons">
