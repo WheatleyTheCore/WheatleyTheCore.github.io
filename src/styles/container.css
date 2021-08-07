@@ -338,3 +338,8 @@ a:active {
   align-content: center;
   text-align: center;
 }
+
+.attributions a {
+  color: darkblue;
+  text-decoration: underline;
+}
