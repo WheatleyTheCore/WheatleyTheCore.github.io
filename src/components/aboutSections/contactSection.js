@@ -9,7 +9,7 @@ const ContactSection = () => {
         <div className="aboutSegmentContent">
           <SectionHeader text="Me Elsewhere"/>
           <div className="contactLinks">
-            <a href="mailto: alex.colwell@icloud.com"><FaEnvelope/> alex.colwell@icloud.com</a>
+            <a href="mailto:alex.colwell@icloud.com"><FaEnvelope/> alex.colwell@icloud.com</a>
             <a href="https://github.com/WheatleyTheCore"><FaGithub/> My Github</a>
             <a href="https://www.linkedin.com/in/alex-colwell-852593179/"><FaLinkedin/> My LinkedIn</a>
             <a href={`resume.pdf`} download><FaFileDownload/> My Resume</a>

@@ -13,13 +13,10 @@ html {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: black
 }
 
-a:hover {
-  text-underline-offset: 0.3em;
-}
 .sectionHeader {
   margin: 15px;
 }
@@ -54,10 +51,15 @@ a:hover {
   padding: 15px;
   border: 1px solid #999;
   align-content: center;
+  text-decoration: none;
 }
 
 .previewButton:hover {
   background-color: lightgrey;
+}
+
+#greeter {
+  font-size: 20px;
 }
 
 /*
@@ -92,6 +94,7 @@ a:hover {
       justify-content: space-evenly;
       align-content: center;
       text-align: center;
+      text-decoration: none;
   }
 
   .thumbnailContainer {
@@ -133,6 +136,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    text-decoration: none;
   }
 
   .cardText {
@@ -275,6 +279,10 @@ a:hover {
   max-width: 735px;
 }
 
+.postBody a {
+  text-decoration: underline;
+}
+
 .postBody img {
   width: 100%;
 }
@@ -335,6 +343,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.attributions a {
+  text-decoration: underline;
 }
 
 .attributions {
