@@ -1,11 +1,17 @@
 import React from 'react'
 import NextSectionButton from './nextSectionButton'
+import SectionHeader from '../sectionHeader'
 
 const IntroSection = () => {
   return (
     <div className="segment" id="about1">
         <div className="aboutSegmentContent">
-          testing one
+          <SectionHeader text="About"/>
+          <div className="aboutIntroText">
+            I'm a tech nerd who specializes in software. I'm a junior-level jack of all trades (for now), and love pushing myself to expland my skillset.
+            I'm a recent high school graduate (but I've been taking college courses for two years now), and have been making things with technology for around 12 years.
+            Some of my hobbies include cooking, music, doing small hardware projects, and volunteering at my local food pantry.
+          </div>
         </div>
         <div className="aboutSegmentNext">
           <NextSectionButton to="about2" />

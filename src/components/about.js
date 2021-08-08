@@ -9,12 +9,6 @@ const About = () => {
       <IntroSection/>
       <SkillsSection/>
       <ContactSection/>
-
-      <div className="fauxButton">
-      <a href={`resume.pdf`} download>
-        You can download my resume here
-      </a>
-    </div>
     </div>
   )
 }
