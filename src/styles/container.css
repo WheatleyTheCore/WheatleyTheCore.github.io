@@ -414,4 +414,59 @@ a:hover {
 
 /*for mobile*/
 @media only screen and (max-width: 768px) {
+  .aboutSegmentContent {
+    font-size: 18px;
+  }
+  .aboutIntroText {
+    max-width: 90%;
+    flex-grow: 20;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .skillSectionContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .skillSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .aboutSegmentContent .sectionHeader {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .skillSectionTitle h3 {
+    margin: 15px;
+  }
+
+  .skillSectionContent{
+    text-align: center;
+    flex-grow: 19;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    margin: 5px;
+  }
 }
