@@ -1,10 +1,14 @@
 import React from 'react'
+import IntroSection from './aboutSections/introSection'
+import SkillsSection from './aboutSections/skillsSection'
+import ContactSection from './aboutSections/contactSection'
 
 const About = () => {
   return (
-    <div className="segment" id="about">
-      I'm a software developer
-
+    <div id="about">
+      <IntroSection/>
+      <SkillsSection/>
+      <ContactSection/>
 
       <div className="fauxButton">
       <a href={`resume.pdf`} download>

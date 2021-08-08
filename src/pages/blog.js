@@ -17,7 +17,7 @@ const ArticlesSearch = ({ data }) => {
 
   return (
     <Container>
-      <div>Blog</div>
+    <div className="searchPage">
       <SearchNav
         path="blog"
         searchQuery={searchQuery}
@@ -36,6 +36,7 @@ const ArticlesSearch = ({ data }) => {
           />
         );
       })}
+    </div>
     </div>
     </Container>
   );

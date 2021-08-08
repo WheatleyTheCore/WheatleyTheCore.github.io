@@ -20,7 +20,7 @@ const ProjectSearch = ({ data }) => {
 
   return (
     <Container>
-      <div>Projects</div>
+    <div className="searchPage">
       <SearchNav
         path="projects"
         searchQuery={searchQuery}
@@ -28,7 +28,7 @@ const ProjectSearch = ({ data }) => {
         linkTo="blog"
         linkToText="Blog"
       />
-      <div classname="cardSection">
+      <div className="cardSection">
       {filteredPosts.map((post) => {
         return (
           <LinkCard
@@ -39,6 +39,7 @@ const ProjectSearch = ({ data }) => {
           />
         );
       })}
+    </div>
     </div>
     </Container>
   );

@@ -8,8 +8,10 @@ const Attributions = () => {
     <div className="nav">
       <div className="navLinks">
         <Link to="/">Home</Link>
-        </div>
+      </div>
     </div>
+
+
     <div className="attributions">
     <div>Git Icon made by <a href="https://twitter.com/jasonlong" title="Jason Long"> Jason Long</a></div>
 <div>Script Icon made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

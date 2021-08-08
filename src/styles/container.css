@@ -25,6 +25,10 @@ a:active {
   margin: 15px;
 }
 
+.container {
+  width:100%;
+}
+
 /*
  *--------------DONT SMOOTH SCROLL IF IT WILL MAKE PEOPLE FEEL SICK OR ANYTHING----------
  **/
@@ -74,6 +78,7 @@ a:active {
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-items: center;
+      max-width: 1200px;
   }
 
 
@@ -99,6 +104,14 @@ a:active {
     align-content: center;
     margin: 20px;
   }
+}
+
+.searchPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
@@ -203,6 +216,7 @@ a:active {
 
 .searchNav {
   margin-top: 70px;
+  width: 100%;
 }
 
 .navLinks {
@@ -342,4 +356,20 @@ a:active {
 .attributions a {
   color: darkblue;
   text-decoration: underline;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ *                    ABOUT SEGMENT SETTINGS
+ *----------------------------------------------------------------------
+ */
+
+.aboutSegmentContent {
+  width: 100%;
+  flex-grow: 20;
+  margin-top: 80px;
+}
+
+.aboutSegmentNext {
+  flex-grow: 1;
 }
