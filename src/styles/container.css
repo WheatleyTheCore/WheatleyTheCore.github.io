@@ -424,6 +424,14 @@ a {
   text-align: center;
 }
 
+.nextSectionButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*for mobile*/
 @media only screen and (max-width: 768px) {
   .aboutSegmentContent {
@@ -463,6 +471,7 @@ a {
     margin: 15px;
   }
 
+
   .skillSectionContent{
     text-align: center;
     flex-grow: 19;
@@ -481,4 +490,9 @@ a {
   .item {
     margin: 5px;
   }
+
+  h2 {
+    margin: 10px
+  }
+
 }

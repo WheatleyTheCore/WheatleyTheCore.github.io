@@ -3,9 +3,11 @@ import {FaChevronDown} from 'react-icons/fa'
 
 const NextSectionButton = ({ to }) => {
   return (
-    <div className="nextSectionButton">
-      <a href={`#${to}`}><FaChevronDown /></a>
-    </div>
+      <a href={`#${to}`}>
+        <div className="nextSectionButton">
+          <FaChevronDown />
+        </div>
+      </a>
   )
 }
 
