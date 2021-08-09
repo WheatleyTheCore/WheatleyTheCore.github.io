@@ -11,7 +11,7 @@ import AttributionSegment from '../components/attributionSegment'
 // markup
 const IndexPage = ({ data }) => {
   const isBrowser = typeof window !== "undefined"
-  const previewNum = isBrowser ? (window.innerWidth > 768 ? Math.floor(2 *(window.innerWidth / (285))) : 4) : 6;
+  const previewNum = isBrowser ? (window.innerWidth > 768 ? Math.floor(2 *(window.innerWidth / (300))) : 4) : 6;
 
   return (
     <Container>

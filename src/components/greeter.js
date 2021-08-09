@@ -10,13 +10,13 @@ const Greeter = () => {
         blink: true,
         element: '_',
         hideWhenDone: false,
-        hideWhenDoneDelay: 1000}}   className="greeterText">
+        hideWhenDoneDelay: 1000}} avgTypingDelay={50} className="greeterText">
         <Typist.Delay ms={300}/>
         <span>Hi,</span>
-        <Typist.Delay ms={700}/>
+        <Typist.Delay ms={500}/>
         <span> my name is Alex.</span>
-        <Typist.Delay ms={900}/>
-        <span> You can learn more about me <a href="#about">here</a>, about my skills <a href="#about2">here</a>, and find me elsewhere <a href="#about3">here</a>.</span>
+        <Typist.Delay ms={600}/>
+        <span> To learn more about me you can visit the <a href="#about">summary section</a>, the <a href="#about2">skills section</a>, and <a href="#about3">check me out elsewhere</a>.</span>
       </Typist>
     </div>
   )
