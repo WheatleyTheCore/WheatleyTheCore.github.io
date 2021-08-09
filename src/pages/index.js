@@ -20,7 +20,6 @@ const IndexPage = ({ data }) => {
       <ProjectSegment id="projectSegment"  edges={data.allDatoCmsProject.edges} previewNum={previewNum}/>
       <ArticleSegment id="blogSegment"  edges={data.allDatoCmsArticle.edges} previewNum={previewNum}/>
       <About  id="about"/>
-      <AttributionSegment/>
     </Container>
   );
 };

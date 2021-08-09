@@ -2,6 +2,8 @@
 import React from 'react'
 import SectionHeader from '../sectionHeader'
 import {FaEnvelope, FaGithub, FaLinkedin, FaFileDownload} from 'react-icons/fa'
+import BackToTop from './backToTop'
+import AttributionSegment from '../attributionSegment'
 
 const ContactSection = () => {
   return (
@@ -15,6 +17,10 @@ const ContactSection = () => {
             <a href={`resume.pdf`} download><FaFileDownload/> My Resume</a>
           </div>
         </div>
+        <AttributionSegment/>
+          <div className="aboutSegmentNext">
+            <BackToTop to="greeter" />
+          </div>
     </div>
   )
 }

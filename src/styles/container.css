@@ -351,8 +351,9 @@ a {
 }
 
 
-.attributionSegment .fauxButton {
-  margin-left: 10px;
+.attributionLink {
+  padding: 5px;
+  text-decoration: underline;
 }
 
 .attributionText {
@@ -489,7 +490,7 @@ a {
   }
 
   .skillSectionTitle h3 {
-    margin: 15px;
+    margin: 10px;
   }
 
 
