@@ -4,6 +4,8 @@ import NextSectionButton from './nextSectionButton'
 import List from './list'
 import SectionHeader from '../sectionHeader'
 
+//TODO break repeated skillsectiontitle skillsectioncontent structure into component or something to make this even a little bit comprehenible
+
 const SkillsSection = () => {
   return (
     <div className="segment" id="about2">

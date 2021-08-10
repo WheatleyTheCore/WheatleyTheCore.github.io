@@ -2,11 +2,10 @@ import React from "react";
 import { graphql } from "gatsby";
 import ArticleSegment from "../components/articleSegment";
 import ProjectSegment from "../components/projectSegment";
-import Greeter from "../components/greeter";
-import About from '../components/about'
+import GreeterSegment from "../components/greeterSegment";
+import AboutSegment from '../components/aboutSegment'
 import Container from "../components/container";
-import Navbar from "../components/navbar";
-import AttributionSegment from '../components/attributionSegment'
+import MainNavbar from "../components/mainNavbar";
 
 // markup
 const IndexPage = ({ data }) => {
@@ -15,11 +14,11 @@ const IndexPage = ({ data }) => {
 
   return (
     <Container>
-      <Navbar />
-      <Greeter id="greeter"  />
+      <MainNavbar />
+      <GreeterSegment id="greeter"  />
       <ProjectSegment id="projectSegment"  edges={data.allDatoCmsProject.edges} previewNum={previewNum}/>
       <ArticleSegment id="blogSegment"  edges={data.allDatoCmsArticle.edges} previewNum={previewNum}/>
-      <About  id="about"/>
+      <AboutSegment  id="about"/>
     </Container>
   );
 };

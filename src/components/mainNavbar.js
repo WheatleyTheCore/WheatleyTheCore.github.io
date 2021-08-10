@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 
-//TODO change this to be tabs instead of the kinda ugly navbar thing
 
 const Navbar = () => {
 
