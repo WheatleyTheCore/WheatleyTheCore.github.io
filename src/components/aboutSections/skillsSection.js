@@ -17,12 +17,12 @@ const SkillsSection = () => {
               <h3>Languages</h3>
             </div>
             <div className="skillSectionContent">
-              <List items={["JavaScript", "HTML", "CSS", "Python", "C++", "C (Embedded)", "Java", "Bash", "Ruby (RoR)", "Markdown", "LaTeX"]}/>
+              <List items={["JavaScript", "HTML", "CSS", "Python", "C++", "C", "Java", "Bash", "Ruby", "Markdown", "LaTeX"]}/>
             </div>
           </div>
           <div className="skillSection">
             <div className="skillSectionTitle">
-              <h3>FrameWorks</h3>
+              <h3>Frameworks</h3>
             </div>
             <div className="skillSectionContent">
               <List items={["React", "Gatsby", "Ruby on Rails", "OpenCV", "Arduino", "Processor Expert", "ESP IoT Development Framework"]}/>
@@ -33,7 +33,7 @@ const SkillsSection = () => {
               <h3>Misc</h3>
             </div>
             <div className="skillSectionContent">
-              <List items={["MacOS, Windows, and Linux SysAdmin", "SQL", "GraphQL", "Auth0", "Firebase", "DatoCMS", "MaterialUI"]}/>
+              <List items={["MacOS/Windows/Linux SysAdmin", "SQL", "GraphQL", "Auth0", "Firebase", "DatoCMS", "MaterialUI"]}/>
             </div>
           </div>
       </div>
