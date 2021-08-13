@@ -6,6 +6,7 @@ import GreeterSegment from "../components/greeterSegment";
 import AboutSegment from '../components/aboutSegment'
 import Container from "../components/container";
 import MainNavbar from "../components/mainNavbar";
+import SEO from '../components/seo'
 
 // markup
 const IndexPage = ({ data }) => {
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Container>
+      <SEO title="Alex Colwell" description="Blog and Portfolio Site"/>
       <MainNavbar />
       <GreeterSegment id="greeter"  />
       <ProjectSegment id="projectSegment"  edges={data.allDatoCmsProject.edges} previewNum={previewNum}/>

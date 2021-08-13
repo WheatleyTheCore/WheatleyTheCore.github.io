@@ -1,10 +1,12 @@
 import React from 'react'
 import Container from '../components/container'
 import { Link } from 'gatsby'
+import SEO from '../components/seo'
 
 const Attributions = () => {
   return (
   <Container>
+    <SEO title="Attributions" description="attributions for this I've used that aren't mine"/>
     <div className="nav">
       <div className="navLinks">
         <Link to="/">Home</Link>

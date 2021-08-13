@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Container from "../components/container";
 import SearchNav from "../components/searchNav";
 import LinkCard from "../components/linkCard";
+import SEO from '../components/seo'
 
 const filterPosts = require("../utils/filter");
 
@@ -20,6 +21,7 @@ const ProjectSearch = ({ data }) => {
 
   return (
     <Container>
+      <SEO title="Projects" description="Projects that I've done"/>
     <div className="searchPage">
       <SearchNav
         path="projects"
